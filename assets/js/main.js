@@ -24,9 +24,20 @@
 // Al click dell'utente sulle frecce, il programma cambierà l’immagine attiva, che quindi verrà visualizzata al posto della precedente.
 
 
-const slides = [
-    'https://www.themoviedb.org/t/p/original/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg',
-    'https://www.themoviedb.org/t/p/original/AhifyrSNkRVFMJ94CEMfBv1FaMz.jpg',
-    'https://www.themoviedb.org/t/p/original/1xO2UnWyxoyTrdvVDXW276LaHQc.jpg',
-    'https://www.themoviedb.org/t/p/original/9VdgIj9R9Z9dfDoO76v57V6FF6y.jpg'
+const slide = [
+    'https://booleancareers.slack.com/files/U019PBPM0F8/F046JSCJ14Z/01.webp',
+    'https://booleancareers.slack.com/files/U019PBPM0F8/F046JSD41PB/02.webp',
+    'https://booleancareers.slack.com/files/U019PBPM0F8/F045ZK0144E/03.webp',
+    'https://booleancareers.slack.com/files/U019PBPM0F8/F04667KGQSW/04.webp',
+    'https://booleancareers.slack.com/files/U019PBPM0F8/F04667KGQSW/05.webp'
   ]
+
+  const slideElement = document.querySelector('.slide')
+
+  for(i = 0; i < slide.length; i++){
+    const linkSlide = slide[i];
+
+
+
+    console.log(linkSlide);
+  }

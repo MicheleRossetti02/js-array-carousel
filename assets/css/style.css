@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container>img{
+/* .container>img{
     width: calc(100%/3);
 }
 img{
@@ -11,4 +11,4 @@ img{
 }
 .col-4>img{
     height: 100%;
-}
+} */
