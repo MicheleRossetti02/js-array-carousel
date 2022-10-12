@@ -36,7 +36,11 @@ const slide = [
 
   for(i = 0; i < slide.length; i++){
     const linkSlide = slide[i];
-
+    
+    const slideStructure = `<img class="${i === linkSlide ? 'active' : ''}" src="${linkSlide}" alt="">`
+    
+    slideElement.insertAdjacentHTML('beforeend', slideStructure)
+  
 
 
     console.log(linkSlide);
